@@ -1,0 +1,9 @@
+node_modules/
+
+# fuzzing artifacts
+
+input.txt
+formatted.txt
+formatted_but_again.txt
+artifacts/
+tmp/
