@@ -1,0 +1,19 @@
+{
+  "name": "fuzz-prettier-plugin-go-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "fuzz": "jsfuzz ./fuzz-prettier-plugin-go-template.js corpus",
+    "fuzz:eslump": "eslump ./fuzz-with-eslump.js output/",
+    "format": "prettier --parser go-template"
+  },
+  "dependencies": {
+    "eslump": "^3.0.0",
+    "jsfuzz": "^1.0.15",
+    "prettier": "^2.5.1",
+    "prettier-plugin-go-template": "^0.0.11",
+    "unexpected": "^12.0.4"
+  }
+}
