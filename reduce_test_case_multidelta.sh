@@ -20,7 +20,7 @@ SECOND_TRY=$?
 #     echo "Difference found! different error codes: $FIRST_TRY v.s. $SECOND_TRY"
 #     exit 1
 # fi
-diff "$TMP_DIR/formatted.html" "$TMP_DIR/formatted_but_again.html" >
+diff "$TMP_DIR/formatted.html" "$TMP_DIR/formatted_but_again.html"
 if [ $? -eq 1 ]; then
     echo "Difference found!"
     exit 0
