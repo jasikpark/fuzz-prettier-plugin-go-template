@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+# use delta (https://web.archive.org/web/20170730171602/http://delta.tigris.org/using_delta.html)
+# to minimize the test case using the output of `test_input.sh`
 mkdir -p 'artifacts'
 mkdir -p 'tmp'
 
