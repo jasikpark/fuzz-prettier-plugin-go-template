@@ -1019,10 +1019,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier-plugin-go-template@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-go-template/-/prettier-plugin-go-template-0.0.11.tgz#49439095ac0a3a14f34d5024d628265c7a2b954a"
-  integrity sha512-qtgoEjvbgmcDp9TOqYNgrPrA41s6S1UMyzMqjcxdxQahTX0webWfbamyA/x3XeBFEEJmgXrRAirzJrIVzImsMg==
+prettier-plugin-go-template@^0.0.12-beta.5:
+  version "0.0.12-beta.5"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-go-template/-/prettier-plugin-go-template-0.0.12-beta.5.tgz#40a9cfc0e64bdc8593864fa9593d46926aafda3b"
+  integrity sha512-XRpxS8k8GCaPciQwnSnzR1/DEzrxuRvy2I9kbBgKE53VeofV1RyCXqapoW2fQSTE1sdlflDVowhFiyfvn/chYA==
   dependencies:
     ulid "^2.3.0"
 
